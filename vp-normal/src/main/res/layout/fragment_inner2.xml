@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <com.jude.rollviewpager.RollPagerView
+        android:id="@+id/rollpager_recommend"
+        app:rollviewpager_hint_color="@color/color_rollpager_hint_bg"
+        app:rollviewpager_play_delay="4000"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/viewpager_height" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="歌单"
+        android:textColor="@color/color_bg_top_red"
+        android:textSize="@dimen/common_sz_18" />
+</LinearLayout>

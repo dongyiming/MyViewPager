@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">VP_NORMAL</string>
+
+    <!-- homepage 底部radiogroup-->
+    <string name="activity_bottom_button1_str">发现音乐</string>
+    <string name="activity_bottom_button2_str">我的音乐</string>
+    <string name="activity_bottom_button3_str">朋 友</string>
+    <string name="activity_bottom_button4_str">账 号</string>
+
+    <!-- homepage 顶部tab-->
+    <string name="fragment_tab_recommend">个性推荐</string>
+    <string name="fragment_tab_chat">歌单</string>
+    <string name="fragment_tab_owner">个人主页</string>
+    <string name="fragment_tab_hottop">排行榜</string>
+
+</resources>
